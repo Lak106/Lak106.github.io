@@ -1,0 +1,19 @@
+My tech stack:
+A1: X 184, Y 1266, W 120, H 120
+A2: X 407, Y 1265, W 120, H 120
+A3: X 631, Y 1259, W 120, H 120
+A4: X 857, Y 1266, 
+
+B1: X 178, Y 1457
+
+My tech stack:
+Python
+C#
+C++
+JavaScript
+HTML
+CSS
+React
+Git Bash
+VSCode
+GitHub
