@@ -1,2 +1,2 @@
-# Personal-Portfolio
-Lakshanth's personal portfolio
+# Personal-Website
+Lakshanth's personal website
