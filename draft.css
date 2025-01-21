@@ -1,0 +1,972 @@
+
+/* Desktop - Dark Mode */
+
+position: relative;
+width: 1600px;
+height: 3000px;
+
+/* Dark Mode */
+background: #191919;
+
+
+/* Group 3 */
+
+position: absolute;
+width: 790px;
+height: 32px;
+left: 580px;
+top: 45px;
+
+
+
+/* Group 2 */
+
+position: absolute;
+width: 609px;
+height: 26px;
+left: 580px;
+top: 49px;
+
+
+
+/* Tech Stack */
+
+position: absolute;
+width: 104px;
+height: 26px;
+left: 825px;
+top: 49px;
+
+/* Buttons / Big */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* Contact */
+
+position: absolute;
+width: 78px;
+height: 26px;
+left: 1111px;
+top: 49px;
+
+/* Buttons / Big */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* Projects */
+
+position: absolute;
+width: 78px;
+height: 26px;
+left: 983px;
+top: 49px;
+
+/* Buttons / Big */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* Home */
+
+position: absolute;
+width: 56px;
+height: 26px;
+left: 580px;
+top: 49px;
+
+/* Buttons / Big */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* About */
+
+position: absolute;
+width: 59px;
+height: 26px;
+left: 703px;
+top: 49px;
+
+/* Buttons / Big */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* Group 1 */
+
+position: absolute;
+width: 130px;
+height: 32px;
+left: 1240px;
+top: 45px;
+
+
+
+/* entypo-social:linkedin-with-circle */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1340px;
+top: 47px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 2%;
+right: 2%;
+top: 2%;
+bottom: 2%;
+
+/* light Content */
+background: #A7A7A7;
+
+
+/* ant-design:twitter-circle-filled */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1290px;
+top: 45px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: -6.25%;
+top: 6.25%;
+bottom: -6.25%;
+
+/* light Content */
+background: #A7A7A7;
+
+
+/* Vector */
+
+position: absolute;
+width: 30px;
+height: 29.26px;
+left: 1240px;
+top: 47px;
+
+/* light Content */
+background: #A7A7A7;
+
+
+/* My Tech Stack */
+
+position: absolute;
+width: 355px;
+height: 26px;
+left: 609px;
+top: 1043px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 26px;
+/* identical to box height, or 54% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid Heading Dark mode */
+color: #CCCCCC;
+
+
+
+/* My Tech Stack */
+
+position: absolute;
+width: 355px;
+height: 26px;
+left: 609px;
+top: 1043px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 26px;
+/* identical to box height, or 54% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid Heading Dark mode */
+color: #CCCCCC;
+
+
+
+/* My Tech Stack */
+
+position: absolute;
+width: 355px;
+height: 26px;
+left: 609px;
+top: 1043px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 26px;
+/* identical to box height, or 54% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid Heading Dark mode */
+color: #CCCCCC;
+
+
+
+/* akar-icons:github-fill */
+
+position: absolute;
+width: 88px;
+height: 88px;
+left: 1324px;
+top: 1473px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 2.47%;
+
+background: #FFFEFE;
+
+
+/* logos:git-icon */
+
+position: absolute;
+width: 105px;
+height: 105px;
+left: 649px;
+top: 1482px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #DE4C36;
+
+
+/* logos:react */
+
+position: absolute;
+width: 113px;
+height: 101px;
+left: 867px;
+top: 1291px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0.1%;
+
+background: #00D8FF;
+
+
+/* logos:sass */
+
+position: absolute;
+width: 117px;
+height: 87px;
+left: 420px;
+top: 1500px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0.18%;
+right: 0.1%;
+top: 0.24%;
+bottom: 0.05%;
+
+background: #CD6799;
+
+
+/* logos:bootstrap */
+
+position: absolute;
+width: 88px;
+height: 87px;
+left: 1320px;
+top: 1310px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #563D7C;
+
+
+/* Vector */
+
+position: absolute;
+left: 28.15%;
+right: 21.14%;
+top: 19.73%;
+bottom: 19.73%;
+
+background: #FFFFFF;
+
+
+/* vscode-icons:file-type-tailwind */
+
+position: absolute;
+width: 131px;
+height: 131px;
+left: 188px;
+top: 1482px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 25.31%;
+bottom: 22.19%;
+
+background: #44A8B3;
+
+
+/* python logo 1 */
+
+position: absolute;
+width: 120.47px;
+height: 120px;
+left: 199px;
+top: 1646px;
+
+background: url(python logo.png);
+
+
+/* vscode-icons:file-type-vscode */
+
+position: absolute;
+width: 112px;
+height: 112px;
+left: 1095px;
+top: 1290px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 6.24%;
+right: 6.25%;
+top: 6.5%;
+bottom: 27.41%;
+
+background: #0065A9;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.24%;
+right: 6.25%;
+top: 27.41%;
+bottom: 6.5%;
+
+background: #007ACC;
+
+
+/* Vector */
+
+position: absolute;
+left: 66.41%;
+right: 6.25%;
+top: 6.5%;
+bottom: 6.5%;
+
+background: #1F9CF0;
+
+
+/* vscode-icons:file-type-js-official */
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 641px;
+top: 1284px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 6.25%;
+bottom: 6.25%;
+
+background: #F5DE19;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.29%;
+right: 13.04%;
+top: 45.92%;
+bottom: 13.06%;
+
+background: #000000;
+
+
+/* vscode-icons:file-type-css */
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 417px;
+top: 1290px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 11.42%;
+right: 11.43%;
+top: 6.25%;
+bottom: 6.25%;
+
+background: #1572B6;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 18.46%;
+top: 12.69%;
+bottom: 12.94%;
+
+background: #33A9DC;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 25.78%;
+top: 21.67%;
+bottom: 49.12%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 28.88%;
+right: 49.94%;
+top: 55.71%;
+bottom: 23.63%;
+
+background: #EBEBEB;
+
+
+/* Vector */
+
+position: absolute;
+left: 50.03%;
+right: 28.35%;
+top: 50.47%;
+bottom: 23.64%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 25.84%;
+right: 49.97%;
+top: 21.67%;
+bottom: 49.12%;
+
+background: #EBEBEB;
+
+
+/* vscode-icons:file-type-html */
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 194px;
+top: 1291px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 11.42%;
+right: 11.42%;
+top: 6.25%;
+bottom: 6.25%;
+
+background: #E44F26;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 18.46%;
+top: 12.69%;
+bottom: 12.94%;
+
+background: #F1662A;
+
+
+/* Vector */
+
+position: absolute;
+left: 25.78%;
+right: 50%;
+top: 22.35%;
+bottom: 22.96%;
+
+background: #EBEBEB;
+
+
+/* Vector */
+
+position: absolute;
+left: 49.97%;
+right: 25.84%;
+top: 22.35%;
+bottom: 22.96%;
+
+background: #FFFFFF;
+
+
+/* cib:greensock */
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 860px;
+top: 1475px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 7.67%;
+right: 7.68%;
+top: 0.11%;
+bottom: 0.12%;
+
+background: #FFFFFF;
+
+
+/* Component 1 */
+
+position: absolute;
+width: 1342px;
+height: 412px;
+left: 151px;
+top: 226px;
+
+
+
+/* Text */
+
+position: absolute;
+left: 0%;
+right: 47.18%;
+top: 38.1%;
+bottom: 27.92%;
+
+
+
+/* You have the design, */
+
+position: absolute;
+left: 0%;
+right: 47.18%;
+top: 38.1%;
+bottom: 27.92%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 70px;
+/* or 121% */
+display: flex;
+align-items: center;
+letter-spacing: -1px;
+
+color: #D9D9D9;
+
+
+
+/* 50353683 1 */
+
+position: absolute;
+visibility: hidden;
+left: 71.01%;
+right: 0%;
+top: 5.43%;
+bottom: -5.14%;
+
+
+
+/* Technologies I’ve been working with recently */
+
+position: absolute;
+width: 719px;
+height: 26px;
+left: 433px;
+top: 1118px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 26px;
+/* identical to box height, or 81% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* My Tech Stack */
+
+position: absolute;
+width: 355px;
+height: 26px;
+left: 609px;
+top: 1043px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 26px;
+/* identical to box height, or 54% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid Heading Dark mode */
+color: #CCCCCC;
+
+
+
+/* My Tech Stack */
+
+position: absolute;
+width: 355px;
+height: 26px;
+left: 609px;
+top: 1043px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 26px;
+/* identical to box height, or 54% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid Heading Dark mode */
+color: #CCCCCC;
+
+
+
+/* My Tech Stack */
+
+position: absolute;
+width: 355px;
+height: 26px;
+left: 609px;
+top: 1043px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 26px;
+/* identical to box height, or 54% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Solid Heading Dark mode */
+color: #CCCCCC;
+
+
+
+/* Technologies I’ve been working with recently */
+
+position: absolute;
+width: 719px;
+height: 26px;
+left: 433px;
+top: 1118px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 26px;
+/* identical to box height, or 81% */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* Menu */
+
+position: absolute;
+left: 11.88%;
+right: 53.5%;
+top: 86.53%;
+bottom: 12.3%;
+
+
+
+/* About */
+
+position: absolute;
+height: 34.77px;
+left: 34.75%;
+right: 61%;
+top: calc(50% - 34.77px/2 + 1113.41px);
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* About */
+
+position: absolute;
+height: 34.77px;
+left: 42.25%;
+right: 53.5%;
+top: calc(50% - 34.77px/2 + 1113.41px);
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* Pricing */
+
+position: absolute;
+height: 34.77px;
+left: 18.25%;
+right: 78.5%;
+top: calc(50% - 34.77px/2 + 1113.41px);
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* How it Works */
+
+position: absolute;
+height: 34.77px;
+left: 24.75%;
+right: 68.5%;
+top: calc(50% - 34.77px/2 + 1113.41px);
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* Portfolio */
+
+position: absolute;
+height: 34.77px;
+left: 11.88%;
+right: 85%;
+top: calc(50% - 34.77px/2 + 1113.67px);
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+/* light Content */
+color: #A7A7A7;
+
+
+
+/* Divider */
+
+position: absolute;
+left: 11.81%;
+right: 12.62%;
+top: 83.1%;
+bottom: 16.69%;
+
+mix-blend-mode: normal;
+opacity: 0.3;
+/* Solid Heading */
+border: 2px solid #42446E;
+
+
+/* Vector */
+
+position: absolute;
+left: 68.69%;
+right: 24.76%;
+top: 49.77%;
+bottom: 47.49%;
+
+background: #764ABC;
+
+
+/* whitelogotransparent 1 */
+
+position: absolute;
+width: 150px;
+height: 84.32px;
+left: 44px;
+top: 43px;
+
+background: url(whitelogotransparent);

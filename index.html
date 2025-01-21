@@ -3,9 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio - Lakshanth</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./draft.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Additional inline styles for quick customization */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+        header a {
+            text-decoration: none;
+            color: #ffffff;
+            margin: 0 15px;
+        }
+        .logo img {
+            width: 50px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="./assets/images/LTLogoTransparent.png" alt="LT Logo">
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#tech-stack">Tech Stack</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="https://github.com/Lak106" target="_blank">
+                <img src="./assets/images/github.svg" alt="GitHub" width="25" height="25">
+            </a>
+            <a href="https://www.linkedin.com/in/lakshanth-thirumugam-2320b9253/" target="_blank">
+                <img src="./assets/images/linkedin.svg" alt="LinkedIn" width="25" height="25">
+            </a>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>Hi, my name is <span>Lak</span></h1>
+        <p>Technologies I've been working with recently</p>
+        <section class="tech-stack">
+            <h2>My Tech Stack</h2>
+            <div class="tech-icons">
+                <img src="./assets/images/html.svg" alt="HTML">
+                <img src="./assets/images/css.svg" alt="CSS">
+                <img src="./assets/images/js.svg" alt="JavaScript">
+                <img src="./assets/images/react.svg" alt="React">
+                <img src="./assets/images/vscode.svg" alt="Visual Studio Code">
+                <img src="./assets/images/git.svg" alt="Git">
+                <img src="./assets/images/github.svg" alt="Github">
+                <img src="./assets/images/python.svg" alt="Python">
+                <img src="./assets/images/chash.svg" alt="C Sharp">
+                <img src="./assets/images/java.svg" alt="Java">
+                <img src="./assets/images/r.png" alt="R">
+                <img src="./assets/images/sql.svg" alt="SQL">
+               
+            </div>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <img src="./assets/images/edgetracer/canny.png" alt="Project 1">
+                    <h3>Tracing-edges-from-webcam-and-local-image</h3>
+                    <p>This Python script utilizes the OpenCV library to perform edge detection on real-time webcam footage. 
+                        It captures video from the webcam, processes the frames to detect edges, and displays the output in real-time.</p>
+                    <a href="https://github.com/Lak106/Tracing-edges-from-webcam-and-local-image">View Code</a>
+                </div>
+                <div class="project-card">
+                    <img src="./assets/images/autoorganize.jpg" alt="Project 2">
+                    <h3>AutoOrganize-Downloads</h3>
+                    <p>Uses Python to sort downloads into sub folders based on the file type.</p>
+                    <a href="https://github.com/Lak106/AutoOrganize-Downloads">View Code</a>
+                </div>
+                <div class="project-card">
+                    <img src="./assets/images/picconvert.png" alt="Project 3">
+                    <h3>Python-Batch-Image-Format-Converter</h3>
+                    <p>Python script to batch convert images from one format to another in a specified folder.</p>
+                    <a href="https://github.com/Lak106/Python-Batch-Image-Format-Converter">View Code</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lakshanth. All rights reserved.</p>
+    </footer>
 </body>
 </html>
