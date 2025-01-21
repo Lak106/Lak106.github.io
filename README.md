@@ -1,3 +1,3 @@
 # Personal-Website
 Lakshanth's personal website
-https://lak106.github.io/Lab106.github.io/
+https://lak106.github.io/Lak106.github.io/
