@@ -37,6 +37,12 @@ header {
 header .logo img {
   width: 50px;
   height: auto;
+  filter: drop-shadow(0 0 5px #00aaff) drop-shadow(0 0 10px #7f00ff);
+  transition: filter 0.3s ease;
+}
+
+header .logo img:hover {
+  filter: drop-shadow(0 0 10px #00aaff) drop-shadow(0 0 20px #7f00ff);
 }
 
 header nav a {
