@@ -15,12 +15,15 @@ h1, h2, h3, p {
 a {
   text-decoration: none;
   color: #00bcd4;
+  background: linear-gradient(90deg, #00aaff, #7f00ff); /* Adjust colors if needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   transition: color 0.3s;
 }
 
 a:hover {
   font-weight: bold;
-    background: linear-gradient(90deg, #00aaff, #7f00ff); /* Adjust colors if needed */
+    background: linear-gradient(90deg, #00aaff, #7f00ff); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
