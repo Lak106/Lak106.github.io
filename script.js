@@ -1,28 +1,41 @@
-/*
-<script>
-  document.getElementById('contact-form').addEventListener('submit', function (e) {
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('contact-form');
+  const status = document.getElementById('form-status');
+
+  form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    const name = document.getElementById('name');
-    const email = document.getElementById('email');
-    const message = document.getElementById('message');
-    const formStatus = document.getElementById('form-status');
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
 
-    if (name.value.trim() === '' || email.value.trim() === '' || message.value.trim() === '') {
-      formStatus.style.display = 'block';
-      formStatus.style.color = '#ff4d4d';
-      formStatus.textContent = 'Please fill in all required fields.';
+    if (!name || !email || !message) {
+      status.innerText = 'Please fill in all fields.';
       return;
     }
 
-    formStatus.style.display = 'block';
-    formStatus.style.color = '#00ff88';
-    formStatus.textContent = 'Message sent successfully!';
-
-    // Clear form fields
-    name.value = '';
-    email.value = '';
-    message.value = '';
+    Email.send({
+      // SecureToken: 'TOKEN',
+      To: 'lakshanth.thiru@gmail.com',
+      From: email,
+      Subject: `New contact from ${name}`,
+      Body: `
+        <b>Name:</b> ${name}<br/>
+        <b>Email:</b> ${email}<br/>
+        <b>Message:</b><br/>${message.replace(/\n/g, '<br/>')}
+      `
+    })
+    .then(response => {
+      if (response === 'OK') {
+        status.innerText = 'Message sent successfully!';
+        form.reset();
+      } else {
+        throw new Error(response);
+      }
+    })
+    .catch(err => {
+      console.error('Email error:', err);
+      status.innerText = 'Failed to send message. Please try again later.';
+    });
   });
-</script>
-*/
+});
