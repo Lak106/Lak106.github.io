@@ -6,14 +6,4 @@ A4: X 857, Y 1266,
 
 B1: X 178, Y 1457
 
-My tech stack:
-Python
-C#
-C++
-JavaScript
-HTML
-CSS
-React
-Git Bash
-VSCode
-GitHub
+
